@@ -1,0 +1,9 @@
+{
+	"name": "myfactorythemis",
+	"location": "switzerlandnorth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8b65eaab-dafa-4be8-987a-c70c603afff1",
+		"tenantId": "4e7b9371-9e86-4a19-94ef-cc54284842a1"
+	}
+}
