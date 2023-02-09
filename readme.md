@@ -87,5 +87,5 @@ A new workflow is created that will aggregate the data. In the first step of the
 ![Dataflow Aggregate Data](https://user-images.githubusercontent.com/46052843/217829436-8b6a4024-e503-4fd6-8c7f-239a39ef8e1a.png)
 
 A new pipeline is created for the aformentioned workflow. If the pipeline is triggered the table in the dedicated pool is filled with the desired aggregated data:
-
+![aggregated results ](https://user-images.githubusercontent.com/46052843/217830677-35e71bf3-dc8f-44e7-a5d8-0627dc38dc25.png)
 
