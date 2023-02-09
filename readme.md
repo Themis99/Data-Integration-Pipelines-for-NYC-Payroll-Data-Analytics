@@ -57,15 +57,25 @@ We create five workflows
 
 For every workflow we also create a pipeline:
 
-- A pipeline for storing the payroll data for year 2021 to the SQL DB
+- A pipeline for storing the payroll data for year 2021 to the SQL DB:
 
-- A pipeline for storing the payroll data for year 2021 to the synapse dedicated pool
+![Pipeline load 2021 payroll into SQLDB](https://user-images.githubusercontent.com/46052843/217819093-75d6e4b3-76a5-4403-a924-e17ba439533a.png)
 
-- A pipeline for storing the Agency Master data to the synapse dedicated pool
+- A pipeline for storing the payroll data for year 2021 to the synapse dedicated pool:
 
-- A pipeline for storing the Employee Master data to the synapse dedicated pool
+![Pipeline Load Year 2021 to Synapse](https://user-images.githubusercontent.com/46052843/217819103-5e830e72-7b95-4d75-8fe5-61aa889e6d08.png)
 
-- A pipeline for storing the Title Master data to the synapse dedicated pool
+- A pipeline for storing the Agency Master data to the synapse dedicated pool:
+
+![Pipeline Load Agency Master to Synapse](https://user-images.githubusercontent.com/46052843/217819096-f11dafe4-bde2-4449-98d9-2e5e1ad995b5.png)
+
+- A pipeline for storing the Employee Master data to the synapse dedicated pool:
+
+![Pipeline Employee Master to Synapse](https://user-images.githubusercontent.com/46052843/217819087-46e4a676-4836-4b86-b631-921d64288c6b.png)
+
+- A pipeline for storing the Title Master data to the synapse dedicated pool:
+
+![Pipeline load Title Master to Synapse](https://user-images.githubusercontent.com/46052843/217819099-4cc13d2b-bede-456e-891b-73627c526234.png)
 
 
 
