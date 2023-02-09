@@ -31,9 +31,16 @@ The SQL Database will be used to store the payroll data of the 2021 year
 
 In the Data factory the workflows and the pipelines will be created.
 
+In the sypapse analytics a dedicated SQL pool will be created. Inside the pool four tables will be created and used to store the data for the Employees, Title and Agency and 2021 payroll data.
+
+## link services and Dataset creation
+Inside the Data factory 
+The Azure synapse, SQL Database and Data lake will be linked. For every table or csv file inside the linked services a Dataset is created.
 
 
 
-## Link services
+
+
+## Workflows and Pipelines creation 
 
 
