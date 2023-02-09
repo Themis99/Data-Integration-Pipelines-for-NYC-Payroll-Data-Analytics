@@ -65,7 +65,7 @@ For every workflow we also create a pipeline:
 
 - A pipeline for storing the Employee Master data to the synapse dedicated pool
 
--A pipeline for storing the Title Master data to the synapse dedicated pool
+- A pipeline for storing the Title Master data to the synapse dedicated pool
 
 
 
