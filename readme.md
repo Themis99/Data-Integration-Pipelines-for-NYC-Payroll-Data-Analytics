@@ -77,6 +77,13 @@ For every workflow we also create a pipeline:
 
 ![Pipeline load Title Master to Synapse](https://user-images.githubusercontent.com/46052843/217819099-4cc13d2b-bede-456e-891b-73627c526234.png)
 
+## Data aggregation 
+In this step, the 2021 and 2020 payroll year data will be extracted and then merged. Afterwards, aggregation will be performed on the Agency Name, Fiscal Year, and TotalPaid, and the result will be stored in the dedicated synapse pool.
+
+Firstly a new dataset containing the 2020 payroll dataset is created. Also a Table that will store the aggregation results is created in the dedicated SQL pool
+
+A new workflow is created that will aggregate the data. In the first step of the workflow the 2021 and 2020 payroll datasets are loaded and then the union of this datasets is created. Then the fiscal year is filtered based on a parameter (the parameter could be 2020 or 2021). A TotalPaid column is created (derived column) that is equal to RegularGrossPaid + TotalOTPaid + TotalOtherPay. Finally, the TotalPaid is grouped by the AgencyName column and Fiscal Year column.
+
 
 
 
