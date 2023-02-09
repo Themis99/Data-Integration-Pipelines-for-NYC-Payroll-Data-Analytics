@@ -37,10 +37,36 @@ In the sypapse analytics a dedicated SQL pool will be created. Inside the pool f
 Inside the Data factory 
 The Azure synapse, SQL Database and Data lake will be linked. For every table or csv file inside the linked services a Dataset is created.
 
-
+![linked servises](https://user-images.githubusercontent.com/46052843/217815038-39d8892f-6add-4350-ae5b-cf7aa7358ced.png)
 
 
 
 ## Workflows and Pipelines creation 
+
+We create five workflows
+
+- One workflow for storing the payroll data for year 2021 to the SQL DB
+
+- One workflow for storing the payroll data for year 2021 to the synapse dedicated pool
+
+- One workflow for storing the Agency Master data to the synapse dedicated pool
+
+- One workflow for storing the Employee Master data to the synapse dedicated pool
+
+- One workflow for storing the Title Master data to the synapse dedicated pool
+
+For every workflow we also create a pipeline:
+
+- A pipeline for storing the payroll data for year 2021 to the SQL DB
+
+- A pipeline for storing the payroll data for year 2021 to the synapse dedicated pool
+
+- A pipeline for storing the Agency Master data to the synapse dedicated pool
+
+- A pipeline for storing the Employee Master data to the synapse dedicated pool
+
+-A pipeline for storing the Title Master data to the synapse dedicated pool
+
+
 
 
