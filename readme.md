@@ -89,3 +89,6 @@ A new workflow is created that will aggregate the data. In the first step of the
 A new pipeline is created for the aformentioned workflow. If the pipeline is triggered the table in the dedicated pool is filled with the desired aggregated data:
 ![aggregated results ](https://user-images.githubusercontent.com/46052843/217830677-35e71bf3-dc8f-44e7-a5d8-0627dc38dc25.png)
 
+## Acknowledgemennts
+I wish to thank Udacity for the guidance and the invaluable feedback they provided
+
